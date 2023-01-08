@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+#define max 30
 int input();
 void output(float);
 int main
