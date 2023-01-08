@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/media/myfabi/24A80B32A80B01D2/jdk-17/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/cpp",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
