@@ -12,6 +12,26 @@
 
 
 
+int menu(){
+    int choice;
+ 
+    system("clear");
+    printf("\n\n                              CPU SCHEDULER");
+    printf("\n-------------------------------------------------------------------------------");
+    printf("\n     Choose the algorithm you want to use to simulate the scheduler. \n");
+    printf("\n                  < 1 > scheduling methods");
+    printf("\n                  < 2 > premptive mode ");
+    printf("\n                  < 3 > results  ");
+    printf("\n                  < 4 > the program has ended ");
+    printf("\n                  < 5 > Exit \n");
+    printf("\n     Your choice: ");
+    scanf("%i", &choice);
+
+    return choice;
+}
+
+
+
 /**
  * Main fcfs function
 */
@@ -247,6 +267,12 @@ int rr(char **arr_rr, int pCounter, int tq, FILE *new_file)
 */
 int main(int argc, char const *argv[])
 {
+
+
+
+
+
+
     char *split;
     char delim[] = " ";
     char const* const fileName = argv[1];
