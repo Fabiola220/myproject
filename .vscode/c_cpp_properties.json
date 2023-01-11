@@ -3,7 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "/media/myfabi/24A80B32A80B01D2/jdk-17/include"
+                "/media/myfabi/24A80B32A80B01D2/Program Files/Git/mingw64"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/cpp",
